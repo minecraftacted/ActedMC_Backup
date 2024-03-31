@@ -2612,15 +2612,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
+  "minecraft:story/follow_ender_eye": {
     "criteria": {
-      "has_chorus_fruit": "2024-03-27 16:53:11 +0900"
+      "in_stronghold": "2024-03-27 16:49:09 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+  "minecraft:end/root": {
     "criteria": {
-      "has_end_stone": "2024-03-27 17:02:25 +0900"
+      "entered_end": "2024-03-27 16:49:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-03-27 16:49:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-03-27 16:49:49 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-03-27 16:53:11 +0900"
     },
     "done": true
   },
@@ -2630,9 +2648,9 @@
     },
     "done": true
   },
-  "minecraft:end/enter_end_gateway": {
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
     "criteria": {
-      "entered_end_gateway": "2024-03-27 16:49:49 +0900"
+      "has_end_stone": "2024-03-27 17:02:25 +0900"
     },
     "done": true
   },
@@ -2648,18 +2666,6 @@
     },
     "done": true
   },
-  "minecraft:story/follow_ender_eye": {
-    "criteria": {
-      "in_stronghold": "2024-03-27 16:49:09 +0900"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2024-03-27 16:49:21 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-03-27 17:02:25 +0900"
@@ -2672,9 +2678,15 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:recipes/decorations/snow": {
     "criteria": {
-      "entered_end": "2024-03-27 16:49:21 +0900"
+      "has_snowball": "2024-03-31 16:15:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-03-31 16:15:05 +0900"
     },
     "done": true
   },
