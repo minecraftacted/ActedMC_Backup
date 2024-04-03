@@ -7,28 +7,29 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2024-03-23 09:54:52 +0900",
       "minecraft:snowy_slopes": "2024-03-24 05:39:22 +0900",
-      "minecraft:beach": "2024-03-20 16:47:36 +0900",
-      "minecraft:dark_forest": "2024-03-24 05:28:58 +0900",
       "minecraft:forest": "2024-03-20 15:58:49 +0900",
       "minecraft:taiga": "2024-03-24 05:35:12 +0900",
-      "minecraft:sparse_jungle": "2024-03-22 09:26:18 +0900",
       "minecraft:deep_ocean": "2024-03-24 05:59:17 +0900",
+      "minecraft:jungle": "2024-03-20 16:01:20 +0900",
+      "minecraft:ocean": "2024-03-23 17:39:34 +0900",
+      "minecraft:cherry_grove": "2024-03-20 16:03:30 +0900",
+      "minecraft:sunflower_plains": "2024-03-20 16:45:57 +0900",
+      "minecraft:birch_forest": "2024-03-21 04:34:02 +0900",
+      "minecraft:old_growth_spruce_taiga": "2024-03-25 13:43:54 +0900",
+      "minecraft:deep_lukewarm_ocean": "2024-04-03 21:25:55 +0900",
+      "minecraft:flower_forest": "2024-03-23 09:54:52 +0900",
+      "minecraft:beach": "2024-03-20 16:47:36 +0900",
+      "minecraft:dark_forest": "2024-03-24 05:28:58 +0900",
+      "minecraft:sparse_jungle": "2024-03-22 09:26:18 +0900",
       "minecraft:river": "2024-03-20 16:02:20 +0900",
       "minecraft:lukewarm_ocean": "2024-03-22 09:26:29 +0900",
       "minecraft:stony_shore": "2024-03-23 09:58:49 +0900",
       "minecraft:dripstone_caves": "2024-03-20 16:15:47 +0900",
       "minecraft:frozen_peaks": "2024-03-24 05:37:52 +0900",
       "minecraft:old_growth_birch_forest": "2024-03-24 08:06:45 +0900",
-      "minecraft:jungle": "2024-03-20 16:01:20 +0900",
-      "minecraft:ocean": "2024-03-23 17:39:34 +0900",
-      "minecraft:cherry_grove": "2024-03-20 16:03:30 +0900",
-      "minecraft:sunflower_plains": "2024-03-20 16:45:57 +0900",
       "minecraft:grove": "2024-03-24 05:55:18 +0900",
       "minecraft:meadow": "2024-03-24 05:43:11 +0900",
-      "minecraft:birch_forest": "2024-03-21 04:34:02 +0900",
-      "minecraft:old_growth_spruce_taiga": "2024-03-25 13:43:54 +0900",
       "minecraft:savanna": "2024-03-21 05:21:44 +0900",
       "minecraft:plains": "2024-03-20 16:02:23 +0900"
     },
@@ -622,6 +623,7 @@
       "minecraft:hoglin": "2024-03-24 19:57:10 +0900",
       "minecraft:shulker": "2024-03-24 09:08:55 +0900",
       "minecraft:piglin": "2024-03-25 22:06:36 +0900",
+      "minecraft:guardian": "2024-04-03 21:32:05 +0900",
       "minecraft:vindicator": "2024-03-24 07:09:59 +0900",
       "minecraft:enderman": "2024-03-22 10:45:55 +0900",
       "minecraft:magma_cube": "2024-03-23 17:18:11 +0900",
@@ -2410,10 +2412,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-03-22 16:27:56 +0900",
       "minecraft:nether_wastes": "2024-03-21 13:51:27 +0900",
+      "minecraft:soul_sand_valley": "2024-04-03 21:19:46 +0900",
       "minecraft:warped_forest": "2024-03-22 16:24:02 +0900",
       "minecraft:basalt_deltas": "2024-03-23 16:52:12 +0900"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -4314,6 +4317,72 @@
   "minecraft:adventure/totem_of_undying": {
     "criteria": {
       "used_totem": "2024-04-01 19:10:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-03 21:29:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-04-03 21:29:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-03 21:28:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-03 21:29:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-04-03 21:29:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-04-03 21:28:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-03 21:29:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-03 21:28:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-03 21:28:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-04-03 21:29:02 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-03 21:29:31 +0900"
     },
     "done": true
   },
