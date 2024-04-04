@@ -10,6 +10,7 @@
       "minecraft:snowy_slopes": "2024-03-19 12:56:23 +0900",
       "minecraft:forest": "2024-03-18 17:33:19 +0900",
       "minecraft:taiga": "2024-03-27 17:39:46 +0900",
+      "minecraft:deep_ocean": "2024-04-04 18:11:57 +0900",
       "minecraft:jungle": "2024-03-18 17:34:33 +0900",
       "minecraft:ocean": "2024-03-19 00:52:00 +0900",
       "minecraft:cherry_grove": "2024-03-18 17:40:36 +0900",
@@ -184,6 +185,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-03-18 17:38:44 +0900",
+      "minecraft:guardian": "2024-04-04 18:14:51 +0900",
       "minecraft:enderman": "2024-03-22 16:26:17 +0900",
       "minecraft:spider": "2024-03-18 22:06:14 +0900",
       "minecraft:zombie": "2024-03-18 17:37:31 +0900",
@@ -934,7 +936,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-03-27 17:24:29 +0900",
       "minecraft:nether_wastes": "2024-03-18 21:55:39 +0900",
-      "minecraft:warped_forest": "2024-03-22 16:24:43 +0900"
+      "minecraft:warped_forest": "2024-03-22 16:24:43 +0900",
+      "minecraft:basalt_deltas": "2024-04-04 18:17:35 +0900"
     },
     "done": false
   },
@@ -2687,6 +2690,72 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2024-03-31 16:15:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-04 18:18:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-04-04 18:11:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-04 18:18:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-04-04 18:18:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-04-04 18:14:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-04-04 18:18:21 +0900"
     },
     "done": true
   },
