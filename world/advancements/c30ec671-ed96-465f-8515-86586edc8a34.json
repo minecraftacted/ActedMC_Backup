@@ -396,6 +396,7 @@
       "apple": "2024-03-23 11:39:34 +0900",
       "spider_eye": "2024-03-25 18:31:24 +0900",
       "potato": "2024-03-22 11:49:09 +0900",
+      "cooked_cod": "2024-04-05 08:38:00 +0900",
       "carrot": "2024-03-21 07:38:25 +0900"
     },
     "done": false
@@ -628,6 +629,7 @@
       "minecraft:vindicator": "2024-03-24 07:09:59 +0900",
       "minecraft:enderman": "2024-03-22 10:45:55 +0900",
       "minecraft:magma_cube": "2024-03-23 17:18:11 +0900",
+      "minecraft:endermite": "2024-04-05 10:27:12 +0900",
       "minecraft:spider": "2024-03-20 16:40:37 +0900",
       "minecraft:vex": "2024-03-25 13:33:11 +0900",
       "minecraft:zombie": "2024-03-20 16:15:13 +0900",
@@ -4420,6 +4422,42 @@
   "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
     "criteria": {
       "has_deepslate_diamond_ore": "2024-04-04 22:08:29 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-04-05 07:34:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-04-05 08:32:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-04-05 07:34:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-04-05 07:34:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-04-05 08:32:01 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2024-04-05 08:05:43 +0900"
     },
     "done": true
   },
