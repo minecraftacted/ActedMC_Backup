@@ -186,11 +186,13 @@
     "criteria": {
       "minecraft:skeleton": "2024-03-18 17:38:44 +0900",
       "minecraft:guardian": "2024-04-04 18:14:51 +0900",
+      "minecraft:zombified_piglin": "2024-04-18 18:27:20 +0900",
       "minecraft:enderman": "2024-03-22 16:26:17 +0900",
       "minecraft:spider": "2024-03-18 22:06:14 +0900",
       "minecraft:zombie": "2024-03-18 17:37:31 +0900",
       "minecraft:creeper": "2024-03-19 00:17:04 +0900",
       "minecraft:drowned": "2024-03-19 17:14:08 +0900",
+      "minecraft:zombie_villager": "2024-04-18 18:49:11 +0900",
       "minecraft:shulker": "2024-03-27 17:18:34 +0900"
     },
     "done": false
@@ -2756,6 +2758,96 @@
   "minecraft:recipes/building_blocks/prismarine_brick_slab": {
     "criteria": {
       "has_prismarine_bricks": "2024-04-04 18:18:21 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-04-18 18:28:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-04-18 18:37:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2024-04-18 18:37:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-04-18 18:28:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-04-18 18:37:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-04-18 20:16:53 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-04-18 19:45:30 +0900"
     },
     "done": true
   },
